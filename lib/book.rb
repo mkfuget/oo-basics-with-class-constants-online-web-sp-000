@@ -10,7 +10,7 @@ class Book
   
   def genre=(book_genre)
     if(!GENRES.include?(book_genre))
-      push(book_genre)
+      GENRES.push(book_genre)
     end
     @genre = book_genre
   end 
